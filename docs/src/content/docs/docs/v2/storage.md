@@ -65,7 +65,7 @@ Butterfly supports importing SVG, Butterfly Note (.bfly), Butterfly Raw Note (.t
 
 ### Butterfly Note (.bfly)
 
-This file type is the recommended for saving notes.
+This file type is recommended for saving notes.
 
 It is a zip archive containing the information (mostly in JSON files) about the note.
 These included JSON files aren't optimized for being human readable.
@@ -78,7 +78,7 @@ This file is **not** a zip archive, instead it is a _JSON_ file.
 It contains all the information about the note in a single JSON file that is optimized for being readable and nicely formatted. It is **slower** than the normal Butterfly Note in loading speed.
 
 ### SVG
-This file type doesn't save information about the note!
-When this file is imported into Butterfly, it is treated as a single image.
+The SVG file type **doesn't** save information about the note!
+When this file is imported into Butterfly, it is treated as a **single** image.
 
-Use this _ONLY_ when the note shouldn't be modified by butterfly.
+Use this _ONLY_ when you dont want the note to be modifiable using Butterfly.
